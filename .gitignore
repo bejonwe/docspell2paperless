@@ -1,0 +1,13 @@
+# Ignore everything in the input folder
+input/*
+# But keep the .gitkeep file
+!input/.gitkeep
+
+# Deno specific ignore lines
+.deno/
+*.lock
+*.log
+*.env
+.vscode/
+.idea/
+.DS_Store
