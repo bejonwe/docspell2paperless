@@ -13,14 +13,16 @@ This script is designed to import files from a Docspell export into Paperless-ng
 
 The script requires the following environment variables (copy `.env.example` to `.env` and set the values):
 
-- `INPUT_FOLDER`: Path to the folder containing Docspell export files (default: './input')
-- `PAPERLESS_HOST`: Hostname of your Paperless-ngx instance
-- `PAPERLESS_PORT`: Port of your Paperless-ngx instance
-- `PAPERLESS_PROTOCOL`: Protocol to use (http or https, default: 'http')
-- `PAPERLESS_API_TOKEN`: API token for authentication with Paperless-ngx
-- `PAPERLESS_STORAGE_PATH_ID`: ID of the storage path in Paperless-ngx, if you only have one storage path, you can use `1`
-- `DOCSPELL_CATEGORY_NAME`: Name of the category in Docspell as it is in the `category` field of the `metadata.json` files (sadly this is locale dependent, so you might need to adjust it)
-- `DOCSPELL_DOCUMENT_TYPE_NAME`: Name of the document type in Docspell as it is in the `documentType` field of the `metadata.json` files (same as above)
+| Environment Variable | Description |
+|----------------------|-------------|
+| `INPUT_FOLDER` | Path to the folder containing Docspell export files (default: './input') |
+| `PAPERLESS_HOST` | Hostname of your Paperless-ngx instance |
+| `PAPERLESS_PORT` | Port of your Paperless-ngx instance |
+| `PAPERLESS_PROTOCOL` | Protocol to use (http or https, default: 'http') |
+| `PAPERLESS_API_TOKEN` | API token for authentication with Paperless-ngx, you can create (or re-create) an API token by opening the "My Profile" link in the user dropdown found in the web UI and clicking the circular arrow button. |
+| `PAPERLESS_STORAGE_PATH_ID` | ID of the storage path in Paperless-ngx, if you only have one storage path, you can use `1` |
+| `DOCSPELL_CATEGORY_NAME` | Name of the category in Docspell as it is in the `category` field of the `metadata.json` files (sadly this is locale dependent, so you might need to adjust it) |
+| `DOCSPELL_DOCUMENT_TYPE_NAME` | Name of the document type in Docspell as it is in the `documentType` field of the `metadata.json` files (same as above) |
 
 ## Docspell Export
 
