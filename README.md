@@ -9,6 +9,12 @@ This script is designed to import files from a Docspell export into Paperless-ng
 - Docspell export (metadata.json and associated attachments, see below)
 - Environment variables set up (see below)
 
+## Installation
+
+ - Clone the repository or download the latest code [here](https://github.com/bejonwe/docspell2paperless/archive/refs/heads/main.zip)
+ - Copy `.env.example` to `.env` and set the values (see below)
+ - Run the script with Deno (see Usage)
+
 ## Environment Variables
 
 The script requires the following environment variables (copy `.env.example` to `.env` and set the values):
